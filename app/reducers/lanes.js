@@ -7,6 +7,13 @@ export default handleActions({
             weather: action.payload
         }
     },
+    [types.MINUS] (state, action) {
+        return {
+            ...state,
+            num: action.payload-1
+        }
+    },
 }, {
-    weather: []
+    weather: [],
+    num:0
 })
