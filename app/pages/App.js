@@ -10,8 +10,9 @@ class App extends React.Component {
         return (
             <div>
                 <button onClick={()=>{getWeather('../../data.json')}}>天气</button>
-                <div>{weather.map((item,index)=>{
-                    return(<div key={index}>{item.title}</div>)
+                <div>{
+                        weather.map((item,index)=>{
+                            return(<div key={index}>{item.title}</div>)
                 })}</div>
             </div>
         );

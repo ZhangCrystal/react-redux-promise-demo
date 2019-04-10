@@ -22,7 +22,8 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
+    "redux-actions": "^2.6.5",
+    "redux-promise": "^0.6.0",
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^2.0.1",
     "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
